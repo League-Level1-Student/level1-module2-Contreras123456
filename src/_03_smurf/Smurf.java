@@ -10,7 +10,7 @@ package _03_smurf;
  * 3&4 see comments in code below
  * 5. Make a Papa Smurf and print his name, hat color and girl or boy.
  * 6. Make a Smurfette and print her name, hat color and girl or boy. 
- */
+ */  
 
 public class Smurf {
 
@@ -31,7 +31,12 @@ public class Smurf {
 	/* Papa Smurf wears a red hat, all the others are white. */
 	public String getHatColor() {
 		// 3. Fill in this method
-		return "";
+		if (this.name.equals("papa")) {
+			return "red";
+		}
+		else {
+			return "white";
+		}
 	}
 
 	/* Smurfette is the only female Smurf. */
